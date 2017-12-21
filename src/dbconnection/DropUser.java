@@ -13,6 +13,7 @@ public class DropUser {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/online_exam_portal", "root", "1234");
+			
 			System.out.println("Created database connection.");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
